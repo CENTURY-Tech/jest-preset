@@ -1,0 +1,36 @@
+{
+  "name": "@ctek/jest-preset",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "jest-preset.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CENTURY Tech (https://www.century.tech)",
+  "homepage": "https://github.com/CENTURY-Tech/jest-preset#readme",
+  "license": "MIT",
+  "contributors": [
+    {
+      "name": "Iain Reid",
+      "email": "iainreid382@gmail.com",
+      "url": "https://chaff.land"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CENTURY-Tech/jest-preset.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CENTURY-Tech/jest-preset/issues"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^24.8.0",
+    "jest-environment-puppeteer": "^4.3.0",
+    "jest-puppeteer": "^4.3.0",
+    "puppeteer": "^1.19.0"
+  },
+  "peerDependencies": {
+    "jest": "^24.8.0"
+  }
+}
