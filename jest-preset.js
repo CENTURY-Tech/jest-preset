@@ -17,9 +17,23 @@ module.exports = {
       testEnvironment: path.resolve(__dirname, "lib", "spec-environment.js")
     },
     {
-      displayName: "Unit",
+      displayName: "JS Unit",
       testRegex: "/src/test/.*\\.unit\\.js$",
       testEnvironment: path.resolve(__dirname, "lib", "unit-environment.js")
+    },
+    {
+      displayName: "TS Unit",
+      preset: 'ts-jest',
+      globals: {
+        'ts-jest': {
+          'diagnostics': {
+            'ignoreCodes': [
+              'TS151001'
+            ]
+          }
+        }
+      },
+      testRegex: "/src/test/.*\\.unit\\.ts$"
     }
   ]
 };
