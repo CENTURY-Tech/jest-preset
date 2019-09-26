@@ -29,15 +29,13 @@
     "jest-environment-jsdom": "^24.8.0",
     "jest-environment-puppeteer": "^4.3.0",
     "jest-puppeteer": "^4.3.0",
-    "puppeteer": "^1.19.0"
+    "puppeteer": "^1.19.0",
+    "ts-jest": "^24.1.0"
   },
   "peerDependencies": {
     "jest": "^24.8.0"
   },
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "ts-jest": "^24.1.0"
   }
 }
